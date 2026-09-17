@@ -305,9 +305,9 @@ tokenize-rt==6.2.0 \
     --hash=sha256:8439c042b330c553fdbe1758e4a05c0ed460dbbbb24a606f11f0dee75da4cad6 \
     --hash=sha256:a152bf4f249c847a66497a4a95f63376ed68ac6abf092a2f7cfb29d044ecff44
     # via yesqa
-virtualenv==21.7.10 \
-    --hash=sha256:a7bf10f37ecc36f1942d6e469d6b59f5fe308f60ac711f66f51ef3bd8cb2c9aa \
-    --hash=sha256:d7ac9669ba19e675ffadbb97fe8e887ef92fb1743fe9a0032be62b947657327a
+virtualenv==21.7.11 \
+    --hash=sha256:f830d4ac9806704d86b50fd100aeda2ea45ea505b88c86ba7a97d994b637f496 \
+    --hash=sha256:f8fa43dad2a2c1584eb1c94d948c7c5f50e9c73c22af3510d9b67a96a25cc273
     # via pre-commit
 wheel==0.48.0 \
     --hash=sha256:3217dcc807155e45db462d7ef2431f5ddda0d7273b700d05a67b271ceb1287ab \
