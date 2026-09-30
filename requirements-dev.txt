@@ -142,9 +142,9 @@ pip-tools==7.6.1 \
     --hash=sha256:6111c8b4b07fd14b7223ca921485b0e96cf66e20bf94da95eeed9845f510cb8f \
     --hash=sha256:695556edeb647eb94ee8345cc7108657fdb7fb16b3876623a399b4f61bbede01
     # via -r requirements-dev.in
-platformdirs==4.12.1 \
-    --hash=sha256:38da801a4af303033cbffccb39030db22bf0473e6414309b02acebeee7ca8bf1 \
-    --hash=sha256:7f251621befae78b2cb74616f9fc99d3fa3db0afba5035987731f8dcd430337d
+platformdirs==4.12.2 \
+    --hash=sha256:29dbf06d96c500bc6bdbce75fb0a14d63279c93b1842f97e72a135b33e856983 \
+    --hash=sha256:eab5f70271a490ef74618bb314fbb86e3c7e82fa3b9c922c2ea0e0a1a155d329
     # via
     #   black
     #   virtualenv
