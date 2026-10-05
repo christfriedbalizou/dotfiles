@@ -132,8 +132,8 @@ VIM_PLUGINS = (
     # renovate: datasource=github-tags depName=psf/black versioning=semver-coerced  # noqa: E501
     GitSource(
         "https://github.com/psf/black.git",
-        "26.5.1",
-        "87928e6d6761a4a6d22250e1fee5601b3998086e",
+        "26.10.0",
+        "4f1883b1f15305a0e83a7c87991f46292bf09f85",
     ),
     # renovate: datasource=github-tags depName=vim-syntastic/syntastic versioning=semver-coerced  # noqa: E501
     GitSource(
