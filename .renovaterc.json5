@@ -9,6 +9,15 @@
   mise: {
     enabled: false,
   },
+  "pip-compile": {
+    managerFilePatterns: ["/^requirements(-dev)?\\.txt$/"],
+  },
+  pip_requirements: {
+    enabled: false,
+  },
+  "pre-commit": {
+    enabled: true,
+  },
   customManagers: [
     {
       customType: "regex",
@@ -26,6 +35,12 @@
     },
   ],
   packageRules: [
+    {
+      description: "Update Flake8 and its pre-commit hook together",
+      matchManagers: ["pip-compile", "pre-commit"],
+      matchPackageNames: ["flake8", "PyCQA/flake8"],
+      groupName: "flake8",
+    },
     {
       description: "Keep supported OS matrix releases explicitly curated",
       matchDatasources: ["docker"],

@@ -95,6 +95,13 @@ python3 -m venv .venv
 ```
 
 Tool versions are pinned in `mise.toml` and resolved in `mise.lock`.
+
+Renovate uses its `pip-compile` manager to regenerate the Python lockfiles from
+their `.in` inputs. Transitive dependencies are resolved together instead of
+updated as independent pins. Flake8 and its pre-commit hook share an update group.
+Keep the Flake8 version in `requirements-dev.in` aligned with the hook, and run
+`just upgrade-reqs` when intentionally upgrading dependencies locally.
+
 Mise updates are handled manually because Renovate's mise manager is disabled.
 Renovate is configured in `.renovaterc.json5` and extends the shared
 `github>christfriedbalizou/renovate` preset.
